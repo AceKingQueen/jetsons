@@ -32,4 +32,4 @@ var table_data = [ { first_name : 'Rose',
 
 2) Contains styling that helps present the table. 
 
-3) Bonus - provide a way to insert the table into different elements within the page.  -->
+3) Bonus - provide a way to insert the table into different elements within the page. 

@@ -29,14 +29,14 @@ console.log(table_data[0]);
 //display the corresponding object at the populate-table divs in the html
 
 table_data.forEach(function(item) {
-    $("#populate-first-name").append("<div>" + item.first_name + "</div>");
+    $(".populate-first-name").append("<div>" + item.first_name + "</div>");
 });
 
 table_data.forEach(function(item) {
-    $("#populate-last-name").append("<div>" + item.last_name + "</div>");
+    $(".populate-last-name").append("<div>" + item.last_name + "</div>");
 });
 
 table_data.forEach(function(item) {
-    $("#populate-home").append("<div>" + item.home + "</div>");
+    $(".populate-home").append("<div>" + item.home + "</div>");
 });
 
