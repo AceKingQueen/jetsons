@@ -25,18 +25,44 @@ var table_data = [ { first_name : 'Rose',
 
 console.log(table_data[0]);    
 
+
+$("#add-data").on("click", function(event) {
+
+    populateTable();
+
+});
+
+function populateTable() {
+
+    //create a new row and new cell for each item item in the array
+    var createRow = $("<tr></tr>");
+   
+    table_data.forEach(function(item) {
+
+    var createCell = $("<td></td>").append(item.first_name);
+    
+    createRow.append(createCell);
+    
+    });
+
+    $("#data-table").append(createRow);
+}
+
 //loop over each object in the table_data array 
-//display the corresponding object at the populate-table divs in the html
 
-table_data.forEach(function(item) {
-    $(".populate-first-name").append("<div>" + item.first_name + "</div>");
-});
 
-table_data.forEach(function(item) {
-    $(".populate-last-name").append("<div>" + item.last_name + "</div>");
-});
+    //display the corresponding object at the populate divs in the html
+//     $(".populate-first-name").append("<div>" + item.first_name + "</div>");
 
-table_data.forEach(function(item) {
-    $(".populate-home").append("<div>" + item.home + "</div>");
-});
+    
+
+
+
+// table_data.forEach(function(item) {
+//     $(".populate-last-name").append("<div>" + item.last_name + "</div>");
+// });
+
+// table_data.forEach(function(item) {
+//     $(".populate-home").append("<div>" + item.home + "</div>");
+// });
 
