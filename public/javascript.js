@@ -25,7 +25,6 @@ var table_data = [ { first_name : 'Rose',
 
 //when the "See Data" button is clicked, run the populateTable function
 $("#add-data").on("click", function(event) {
-  console.log("button check");
 
     populateTable();
 
