@@ -1,42 +1,10 @@
-<!-- You will design a small web application GUI, using HTML and JavaScript that does the following:
-
-1) Write a function which processes the following data structure to insert an HTML table into a web page.
-
-var table_data = [ { first_name : 'Rose',
-                     last_name  : 'Tyler',
-                     home       : 'Earth' },
-                   { first_name : 'Zoe',
-                     last_name  : 'Heriot',
-                     home       : 'Space Station W3'},
-                   { first_name : 'Jo',
-                     last_name  : 'Grant',
-                     home       : 'Earth'},
-                   { first_name : 'Leela',
-                     last_name  : null,
-                     home       : 'Unspecified'},
-                   { first_name : 'Romana',
-                     last_name  : null,
-                     home       : 'Gallifrey'},
-                   { first_name : 'Clara',
-                     last_name  : 'Oswald',
-                     home       : 'Earth'},
-                   { first_name : 'Adric',
-                     last_name  : null,
-                     home       : 'Alzarius'},
-                   { first_name : 'Susan',
-                     last_name  : 'Foreman',
-                     home       : 'Gallifrey'} ];
-
-2) Contains styling that helps present the table. 
-
-3) Bonus - provide a way to insert the table into different elements within the page.  -->
-
-
 <!-- table_data is an array of objects. each object has an index and 3 properties, first_name, last_name, and home. 
 
   The easiest thing to do is probably loop over the array  and for each object in the array, grab it and display it in the table.
 
 I could use jQuery to grab each object and assign where it should go in the table, which I probably should do because they use jQuery for sure
+
+Once I get stuff showing up on the page, I should deploy to Heroku.
 
 I'm not entirely sure how to insert the table into different elements within the page but I'm guessing either assign it a variable or use jQuery-->
 
@@ -54,8 +22,16 @@ I'm not entirely sure how to insert the table into different elements within the
 </head>
 <body>
 
+  <div class="container">
+    <p id="populate-first-name"></p>
+    <p id="populate-last-name"></p>
+    <p id="populate-home"></p>
+
+</div>
   
     
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="javascript.js"></script>
+
 </html>

@@ -25,3 +25,18 @@ var table_data = [ { first_name : 'Rose',
 
 console.log(table_data[0]);    
 
+//loop over each object in the table_data array 
+//display the corresponding object at the populate-table divs in the html
+
+table_data.forEach(function(item) {
+    $("#populate-first-name").append("<div>" + item.first_name + "</div>");
+});
+
+table_data.forEach(function(item) {
+    $("#populate-last-name").append("<div>" + item.last_name + "</div>");
+});
+
+table_data.forEach(function(item) {
+    $("#populate-home").append("<div>" + item.home + "</div>");
+});
+
