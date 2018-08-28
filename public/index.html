@@ -9,34 +9,43 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
     crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Forum|Playball" rel="stylesheet">
   <title>Jetson Space Station</title>
 </head>
 
 <body>
 
+  <div class="wrapper">
+
     <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">The Jetsons' Neighborhood</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          <button type="submit" class="btn btn-primary btn-lg" id="add-data">Meet the Neighbors</button>
-        </div>
+      <div class="container">
+        <h1 class="display-4">The Jetsons' Neighborhood</h1>
+        <p class="lead">Click on the button below to meet the Jetsons' neighbors.</p>
+        <img id="jetsonsPic" src="https://cc-media-foxit.fichub.com/image/fox-it-mondofox/cc698d9e-0345-4b8f-acfc-85f54a61ec11/i-jetsons-1-maxw-654.jpg"
+          alt="the Jetsons" />
+        <img class="rosie" src="https://orig00.deviantart.net/4c2c/f/2015/241/f/2/rosie_robot_by_code_e-d97md1w.png" alt="Jetsons Rosie">  
+        <button type="submit" class="btn btn-outline-warning btn-lg" id="add-data">Meet the Neighbors</button>
+
       </div>
+    </div>
 
 
-  <div class="container">
+    <div class="container">
 
-
-    <table class="table table-hover table-dark">
-      <thead>
-        <tr>
-          <th scope="col">First Name</th>
-          <th scope="col">Last Name</th>
-          <th scope="col">Home</th>
-        </tr>
-      </thead>
+      <table class="table table-hover table-dark">
+       
+        <thead>
+          <tr>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Home</th>
+          </tr>
+        </thead>
         <tbody id="data-table">
         </tbody>
-    </table>
+      </table>
+
+    </div>
 
   </div>
 
