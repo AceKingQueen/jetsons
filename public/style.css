@@ -1,11 +1,11 @@
+body {
+    background-color: #020714;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
 h1 {
     font-family: 'Playball', cursive;
     color: white;
-}
-
-.wrapper {
-    background-image: url("https://steemitimages.com/0x0/http://www.banarsidesigns.com/blog/wp-content/uploads/2016/09/the-jetsons.jpg");
-    background-repeat: no-repeat;
 }
 
 .jumbotron {
@@ -35,6 +35,10 @@ p {
     color: white;
 }
 
+
+
 table {
     font-family: 'Forum', cursive;
 }
+
+
