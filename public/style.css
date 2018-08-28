@@ -1,12 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #020714;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
-}
-
-h1 {
-    font-family: 'Playball', cursive;
-    color: white;
-    font-size: 90px;
 }
 
 .jumbotron {
@@ -14,33 +12,58 @@ h1 {
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 }   
 
+.container {
+    position: relative;  
+    width: 100%;
+    max-width: 700px;
+}
+
+.container .content {
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: 20px; 
+}
+
+h1 {
+    font-family: 'Playball', cursive;
+    color: white;
+    font-size: 90px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #jetsonsPic {
-    height: 40%;
-    width: 40%;
+    width: 100%;
+    height: auto;
 }
 
 .rosie {
     height: 10%;
     width: 10%;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 button {
     font-family: 'Playball', cursive;
+    margin-top: 5%;
+    margin-left: 43%;
 }
 
 p {
     font-family: 'Forum', cursive;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 table {
     font-family: 'Forum', cursive;
+    text-align: center;
 }
 
 footer {
     height: 25px;
-    background-color: gray;
+    background-color: #343a40;
+    margin-top: 5%;
 }
