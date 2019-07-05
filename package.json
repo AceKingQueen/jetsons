@@ -18,10 +18,10 @@
   },
   "homepage": "https://acekingqueen.github.io/jetsons/public/",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.16.3",
     "fs": "0.0.1-security",
     "http": "0.0.0",
     "path": "^0.12.7",
-    "save": "^2.4.0"
+    "save": "^2.3.2"
   }
 }
